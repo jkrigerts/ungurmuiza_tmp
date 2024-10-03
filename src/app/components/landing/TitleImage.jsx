@@ -10,6 +10,7 @@ export default function TitleImage() {
         height={853}
         className={styles.image}
         alt="Ungurmuiža miglā"
+        priority={true}
       ></Image>
       <Image
         src="/keyboard_arrow_down.svg"
