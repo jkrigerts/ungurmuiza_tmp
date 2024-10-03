@@ -5,7 +5,7 @@ import styles from "./Events.module.css";
 export default async function Events() {
   let events = [];
   try {
-    let data = await fetch(`${process.env.API_HOST}/api/events`);
+    let data = await fetch(`https://admin.ungurmuiza.lv/api/events`);
     events = await data.json();
   } catch {
     console.log("API Server Error");
@@ -41,7 +41,7 @@ export default async function Events() {
                 <p className={styles.info}>{event.short_info}</p>
               )}
             </div>
-            <img src={`${process.env.API_HOST}/storage/${event.image}`} />
+            <img src={`https://admin.ungurmuiza.lv/storage/${event.image}`} />
           </Link>
         </li>
       ))}

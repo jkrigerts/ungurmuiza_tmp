@@ -13,7 +13,7 @@ export const metadata = {
       "Restorānā gaidīts ikviens, kurš novērtē gardu maltīti no vietējiem sezonas produktiem!",
     images: [
       {
-        url: `${process.env.HOST}/meta/restaurant.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/restaurant.jpg`,
         width: 1200,
         height: 630,
       },

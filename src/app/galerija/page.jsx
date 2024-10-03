@@ -12,7 +12,7 @@ export const metadata = {
       "Iepazīsti Ungurmuižu jebkur un ierodies baudīt tās būrvību klātienē!",
     images: [
       {
-        url: `${process.env.HOST}/meta/main.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
         width: 1200,
         height: 630,
       },

@@ -9,7 +9,7 @@ export const metadata = {
     description: "E-pasts: info@ungurmuiza.lv, telefona numurs: +371 22007332",
     images: [
       {
-        url: `${process.env.HOST}/meta/main.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
         width: 1200,
         height: 630,
       },

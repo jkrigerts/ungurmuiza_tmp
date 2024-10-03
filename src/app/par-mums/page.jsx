@@ -11,7 +11,7 @@ export const metadata = {
       "Harmonisks 18. gadsimta koka ēku ansamblis, milzu ozolu ieskauts",
     images: [
       {
-        url: `${process.env.HOST}/meta/main.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
         width: 1200,
         height: 630,
       },

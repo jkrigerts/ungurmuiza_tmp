@@ -8,7 +8,7 @@ export const runtime = "edge";
 async function getEvent(id) {
   let event = {};
   try {
-    let res = await fetch(`${process.env.API_HOST}/api/events/${id}`);
+    let res = await fetch(`https://admin.ungurmuiza.lv/api/events/${id}`);
     event = await res.json();
   } catch {
     console.log("API Server Error");
@@ -39,6 +39,13 @@ export async function generateMetadata({ params }) {
       description: `Pasākums Ungurmuižā!${
         event.short_info ? event.short_info : ""
       }`,
+      images: [
+        {
+          url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
+          width: 1200,
+          height: 630,
+        },
+      ],
     },
   };
 }
@@ -61,7 +68,7 @@ export default async function Page({ params }) {
         {event.date && event.date}
         {event.date_untill && ` - ${event.date_untill}`}
       </p>
-      <img src={`${process.env.API_HOST}/storage/${event.image}`} />
+      <img src={`https://admin.ungurmuiza.lv/storage/${event.image}`} />
       <div
         className={styles.desc}
         dangerouslySetInnerHTML={{ __html: event.description }}

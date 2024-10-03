@@ -18,7 +18,8 @@ export const metadata = {
     description: "Unikāls 18. gadsimta koka arhitektūras ansamblis.",
     images: [
       {
-        url: `${process.env.HOST}/meta/main.jpg`,
+        // url: `${process.env.HOST}/meta/main.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
         width: 1200,
         height: 630,
       },

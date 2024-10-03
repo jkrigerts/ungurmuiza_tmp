@@ -12,7 +12,7 @@ export const metadata = {
       "Ein einzigartiges Herrenhaus aus Holz aus dem 18. Jahrhundert",
     images: [
       {
-        url: `${process.env.HOST}/meta/main.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
         width: 1200,
         height: 630,
       },

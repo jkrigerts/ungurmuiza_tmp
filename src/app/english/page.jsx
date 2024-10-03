@@ -13,7 +13,7 @@ export const metadata = {
     description: "A unique 18th-century wooden architectural manor",
     images: [
       {
-        url: `${process.env.HOST}/meta/main.jpg`,
+        url: `https://ungurmuiza-tmp.pages.dev/meta/main.jpg`,
         width: 1200,
         height: 630,
       },
