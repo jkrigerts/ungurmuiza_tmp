@@ -7,6 +7,8 @@ import TitleImage from "./components/landing/TitleImage";
 import LandingHeading from "./components/landing/LandingHeading";
 import Events from "./components/landing/Events";
 
+export const runtime = "edge";
+
 export const revalidate = 60;
 
 export const dynamicParams = true;
