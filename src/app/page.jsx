@@ -7,6 +7,19 @@ import TitleImage from "./components/landing/TitleImage";
 import LandingHeading from "./components/landing/LandingHeading";
 import Events from "./components/landing/Events";
 
+export const revalidate = 60;
+
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const events = await fetch("https://admin.ungurmuiza.lv/api/events").then(
+    (res) => res.json()
+  );
+  return events.map((event) => ({
+    id: String(event.id),
+  }));
+}
+
 export default function page() {
   return (
     <>
