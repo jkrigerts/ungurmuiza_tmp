@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import BackButton from "./BackButton";
 import styles from "./page.module.css";
 
+export const runtime = "edge";
+
 async function getEvent(id) {
   let event = {};
   try {
