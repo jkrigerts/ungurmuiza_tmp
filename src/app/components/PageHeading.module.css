@@ -1,0 +1,23 @@
+.heading {
+  font-size: 4.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-block: 70px 60px;
+  text-align: center;
+}
+
+@media (max-width: 630px) {
+  .heading {
+    font-size: calc(1.1rem + 8vw);
+    letter-spacing: calc(0.05rem + 0.7vw);
+  }
+}
+
+@media (max-width: 370px) {
+  .heading {
+    font-size: calc(1.3rem + 6.5vw);
+    letter-spacing: 0.1rem;
+  }
+}

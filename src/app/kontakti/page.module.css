@@ -1,0 +1,43 @@
+.contacts {
+  padding-block: var(--navbar-height) 60px;
+  padding-inline: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contacts > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.contacts iframe {
+  border-radius: 3px;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contacts h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin: 20px 0 7px;
+}
+
+.contacts p {
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 790px) {
+  .contacts > div {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts iframe {
+    height: 500px;
+  }
+}

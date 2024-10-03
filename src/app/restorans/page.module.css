@@ -1,0 +1,82 @@
+.restaurant {
+  padding-block: var(--navbar-height) 60px;
+  padding-inline: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.restaurant article {
+  max-width: 900px;
+  margin: 60px auto 0;
+}
+
+.restaurant img {
+  width: 100%;
+  height: min(400px, 40vw);
+  object-fit: cover;
+  object-position: center bottom;
+  border-radius: var(--border-radius);
+}
+
+.restaurant p {
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+.restaurant p a {
+  color: var(--primary-color);
+}
+
+.restaurant .heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-block: 20px 10px;
+  max-width: 600px;
+  color: var(--secondary-color);
+}
+
+.restaurant .wrapper {
+  display: flex;
+}
+
+.restaurant iframe {
+  border-radius: 3px;
+  border: 0;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 2rem;
+}
+
+.mb70 {
+  margin-bottom: 70px;
+}
+
+.gallery {
+  padding-block: var(--navbar-height) 60px;
+  padding-inline: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  .restaurant iframe {
+    display: none;
+  }
+
+  .mb70 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .restaurant .heading {
+    font-size: calc(1.2rem + 1.5vw);
+  }
+}
+
+@media (max-width: 370px) {
+  .restaurant .heading {
+    font-size: calc(1rem + 1.5vw);
+  }
+}

@@ -1,0 +1,17 @@
+.gallery {
+  padding-block: var(--navbar-height) 60px;
+  padding-inline: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.gallery .tr {
+  margin-bottom: 50px;
+}
+
+.gallery a {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 10px;
+}

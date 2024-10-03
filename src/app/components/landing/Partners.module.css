@@ -1,0 +1,17 @@
+.partners {
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 200px auto;
+  gap: 30px;
+  padding: 0 24px;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .partners {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,127 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: var(--navbar-height);
+  padding: 0 1.5em;
+  z-index: 1000;
+  font-size: 1rem;
+  --data-scroll-color: var(--black);
+  color: var(--data-scroll-color);
+  box-shadow: 0 0 0.25em rgba(67, 71, 85, 0.27),
+    0 0.25em 1em rgba(90, 125, 188, 0.05);
+  background-color: #fff;
+  border: none;
+
+  transition: background-color 0.5s, color 0.1s, box-shadow 0.5s;
+}
+
+.header .navigationWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+  transition: all 0.5s;
+}
+
+.headerClean[data-scroll]:is([data-scroll="0"]) {
+  --data-scroll-color: white;
+  box-shadow: 0 0 0 transparent;
+  background-color: transparent;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header nav ul li {
+  list-style-type: none;
+}
+
+.header nav ul li a {
+  display: block;
+  padding: 15px 7px;
+  transition: font-weight 0.5s;
+}
+
+.header nav ul li .active {
+  font-weight: 700;
+}
+
+.header .hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.header .hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: var(--data-scroll-color);
+  transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.5s;
+}
+
+.open.line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.open.line2 {
+  opacity: 0;
+}
+
+.open.line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+@media (max-width: 950px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left: 15px;
+  }
+
+  .header .navigationWrapper {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: var(--navbar-height);
+    min-height: calc(100vh - var(--navbar-height));
+    left: 0;
+    background-color: white;
+    color: var(--black);
+    padding: 20px;
+
+    flex-direction: column;
+    gap: 30px;
+    justify-content: start;
+  }
+
+  .navigationWrapper nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navMobileOpen.headerClean[data-scroll]:is([data-scroll="0"]) {
+    background-color: white;
+    --data-scroll-color: var(--black);
+  }
+
+  .navMobileOpen .navigationWrapper {
+    visibility: visible;
+    opacity: 1;
+    top: var(--navbar-height);
+  }
+}
