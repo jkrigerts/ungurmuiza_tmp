@@ -15,7 +15,6 @@
   transition: all 0.3s;
   border-radius: var(--border-radius);
   overflow: hidden;
-  padding: 3px;
 }
 
 .event:hover {
