@@ -146,19 +146,19 @@ export default function page() {
         </article>
         <article>
           <h2 className={styles.heading}>Ēdienkarte</h2>
-          <iframe src="/Edienkarte_vasara_2024.pdf"></iframe>
+          <iframe src="/Edienkarte_rudens_ziema_2024.pdf"></iframe>
           <div className={`${styles.wrapper} ${styles.mb70}`}>
-            <Button href="/Edienkarte_vasara_2024.pdf">Ēdienkarte</Button>
+            <Button href="/Edienkarte_rudens_ziema_2024.pdf">Ēdienkarte</Button>
           </div>
-          <iframe src="/Edienkarte-mazajiem-edajiem-2024.pdf"></iframe>
+          <iframe src="/Edienkarte_mazajiem_edajiem_2024.pdf"></iframe>
           <div className={`${styles.wrapper} ${styles.mb70}`}>
-            <Button href="/Edienkarte-mazajiem-edajiem-2024.pdf">
+            <Button href="/Edienkarte_mazajiem_edajiem_2024.pdf">
               Ēdienkarte mazajiem ēdājiem
             </Button>
           </div>
-          <iframe src="/Dzerienkarte-rudens-ziema-2024.pdf"></iframe>
+          <iframe src="/Dzerienkarte-RUDENS_ZIEMA-2024.pdf"></iframe>
           <div className={styles.wrapper}>
-            <Button href="/Dzerienkarte-rudens-ziema-2024.pdf">
+            <Button href="/Dzerienkarte-RUDENS_ZIEMA-2024.pdf">
               Dzērienkarte
             </Button>
           </div>
