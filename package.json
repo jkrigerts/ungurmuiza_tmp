@@ -16,8 +16,5 @@
     "photoswipe": "^5.4.4",
     "react": "^18",
     "react-dom": "^18"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.3"
   }
 }
