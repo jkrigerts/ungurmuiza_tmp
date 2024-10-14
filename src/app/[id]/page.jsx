@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
     title: `${event.title} - Ungurmuiža`,
     openGraph: {
       title: `${event.title} - Ungurmuiža`,
-      description: `Pasākums Ungurmuižā!${
+      description: `Pasākums Ungurmuižā! ${
         event.short_info ? event.short_info : ""
       }`,
       images: [
@@ -80,6 +80,10 @@ export default async function Page({ params }) {
       <p className={styles.time}>
         {event.date && event.date}
         {event.date_untill && ` - ${event.date_untill}`}
+        {event.start_time &&
+          `, plkst. ${event.start_time.replace(":", ".").substring(0, 5)}`}
+        {event.end_time &&
+          ` - ${event.end_time.replace(":", ".").substring(0, 5)}`}
       </p>
       <img src={`https://admin.ungurmuiza.lv/storage/${event.image}`} />
       <div

@@ -26,15 +26,21 @@ export default async function Events() {
                   {new Date(event.date).toLocaleDateString("lv-LV", {
                     month: "long",
                     day: "numeric",
-                  })}{" "}
+                  })}
                   {event.date_untill &&
-                    `- ${new Date(event.date_untill).toLocaleDateString(
+                    ` - ${new Date(event.date_untill).toLocaleDateString(
                       "lv-LV",
                       {
                         month: "long",
                         day: "numeric",
                       }
                     )}`}
+                  {event.start_time &&
+                    `, pl. ${event.start_time
+                      .replace(":", ".")
+                      .substring(0, 5)}`}
+                  {event.end_time &&
+                    ` - ${event.end_time.replace(":", ".").substring(0, 5)}`}
                 </p>
               )}
               {event.short_info && (

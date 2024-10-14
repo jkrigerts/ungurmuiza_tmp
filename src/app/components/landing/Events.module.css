@@ -7,7 +7,6 @@
   column-gap: 50px;
   row-gap: 100px;
   align-items: stretch;
-  grid-template-rows: 500px;
 }
 
 .event {
