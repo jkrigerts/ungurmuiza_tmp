@@ -133,9 +133,9 @@ export default function page() {
         </article>
         <article>
           <h2 className={styles.heading}>Darba laiks</h2>
-          <p>Pirmdienā slēgts</p>
-          <p>Otrdiena – Sestdiena 12.00 – 20.00</p>
+          <p>Trešdiena – Sestdiena 12.00 – 20.00</p>
           <p>Svētdiena 12.00 – 18.00</p>
+          <p>Pirmdienā, otrdienā - slēgts</p>
           <p style={{ marginTop: 10 }}>
             Lūdzam rezervēt galdiņu iepriekš:{" "}
             <a href="tel:+37122007332">+371 22007332</a>
