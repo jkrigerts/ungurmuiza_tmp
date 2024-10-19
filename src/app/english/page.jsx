@@ -185,13 +185,17 @@ export default function page() {
       </section>
       <section className={styles.info}>
         <h2 className={styles.heading}>Menu</h2>
-        <iframe src="/Menu-summer_2024.pdf"></iframe>
+        <iframe src="/Menu-fall_2024.pdf"></iframe>
         <div className={`${styles.wrapper} ${styles.mb70}`}>
-          <Button href="/Menu-summer_2024.pdf">Meals Menu</Button>
+          <Button href="/Menu-fall_2024.pdf">Meals Menu</Button>
         </div>
         <iframe src="/Drinks-summer-2024.pdf"></iframe>
         <div className={styles.wrapper}>
           <Button href="/Drinks-summer-2024.pdf">Beverage Menu</Button>
+        </div>
+        <iframe src="/Ligante_winery.pdf" style={{ marginTop: 50 }}></iframe>
+        <div className={styles.wrapper}>
+          <Button href="/Ligante_winery.pdf">Līgatne winery</Button>
         </div>
       </section>
     </>

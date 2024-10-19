@@ -157,9 +157,15 @@ export default function page() {
             </Button>
           </div>
           <iframe src="/Dzerienkarte-RUDENS_ZIEMA-2024.pdf"></iframe>
-          <div className={styles.wrapper}>
+          <div className={`${styles.wrapper} ${styles.mb70}`}>
             <Button href="/Dzerienkarte-RUDENS_ZIEMA-2024.pdf">
               Dzērienkarte
+            </Button>
+          </div>
+          <iframe src="/Ligantes_vina_daritava.pdf"></iframe>
+          <div className={styles.wrapper}>
+            <Button href="/Ligantes_vina_daritava.pdf">
+              Līgatnes vīna darītava
             </Button>
           </div>
         </article>
