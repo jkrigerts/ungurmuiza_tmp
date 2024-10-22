@@ -177,9 +177,9 @@ export default function page() {
       <section className={styles.opening}>
         <h2 className={styles.heading}>Öffnungszeiten</h2>
         <h3>Museumsöffnungszeiten</h3>
-        <p>Dienstag – Sonntag 10.00 – 18.00</p>
+        <p>Mittwoch – Sonntag 10.00 – 16.00</p>
         <h3 style={{ marginTop: 20 }}>Restaurantöffnungszeiten</h3>
-        <p>Dienstag – Samstag 12.00 – 20.00</p>
+        <p>Mittwoch – Samstag 12.00 – 20.00</p>
         <p>Sonntag – 12.00 – 18.00</p>
         <p>
           Bitte rufen Sie an, um eine Reservierung vorzunehmen:{" "}

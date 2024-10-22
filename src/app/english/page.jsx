@@ -167,9 +167,9 @@ export default function page() {
       <section className={styles.opening}>
         <h2 className={styles.heading}>Opening hours</h2>
         <h3>Museum Opening hours</h3>
-        <p>Tuesday – Sunday 10.00 – 18.00</p>
+        <p>Wednesday – Sunday 10.00 – 16.00</p>
         <h3 style={{ marginTop: 20 }}>Restaurant Opening hours</h3>
-        <p>Tuesday – Saturday 12.00 – 20.00</p>
+        <p>Wednesday – Saturday 12.00 – 20.00</p>
         <p>Sunday – 12.00 – 18.00</p>
         <p>
           Please call to make a reservation:{" "}
