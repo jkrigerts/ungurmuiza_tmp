@@ -178,9 +178,9 @@ export default function page() {
       </section>
       <section className={styles.info}>
         <h2 className={styles.heading}>Price List</h2>
-        <iframe src="/Price-list_2024.pdf"></iframe>
+        <iframe src="/Price-list_2025.pdf"></iframe>
         <div className={styles.wrapper}>
-          <Button href="/Price-list_2024.pdf">Price list</Button>
+          <Button href="/Price-list_2025.pdf">Price list</Button>
         </div>
       </section>
       <section className={styles.info}>

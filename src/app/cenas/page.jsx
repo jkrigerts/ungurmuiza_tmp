@@ -24,10 +24,10 @@ export default function page() {
     <>
       <section className={styles.prices}>
         <PageHeading>Cenas</PageHeading>
-        <iframe src="/Cenas_2024.pdf"></iframe>
+        <iframe src="/Cenas_2025.pdf"></iframe>
         <div className={styles.priceBtnWrapper}>
-          <Button href="/Cenas_2024.pdf" target="_blank">
-            Cenrādis Ungurmuižas pakalpojumiem 2024
+          <Button href="/Cenas_2025.pdf" target="_blank">
+            Cenrādis Ungurmuižas pakalpojumiem 2025
           </Button>
         </div>
       </section>
