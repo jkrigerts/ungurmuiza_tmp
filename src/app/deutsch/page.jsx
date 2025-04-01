@@ -177,12 +177,11 @@ export default function page() {
       <section className={styles.opening}>
         <h2 className={styles.heading}>Öffnungszeiten</h2>
         <h3>Museumsöffnungszeiten</h3>
-        <p>Mittwoch – Sonntag 10.00 – 16.00</p>
+        <p>Freitag – Sonntag 10:00 – 18:00 Uhr.</p>
         <h3 style={{ marginTop: 20 }}>Restaurantöffnungszeiten</h3>
-        <p>Mittwoch – Samstag 12.00 – 20.00</p>
-        <p>Sonntag – 12.00 – 18.00</p>
+        <p>Aus technischen Gründen vorübergehend geschlossen</p>
         <p>
-          Bitte rufen Sie an, um eine Reservierung vorzunehmen:{" "}
+          Bitte rufen Sie an für weitere Informationen:{" "}
           <a href="tel:+37122007332">+371 22007332</a>
         </p>
       </section>

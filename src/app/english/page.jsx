@@ -167,12 +167,11 @@ export default function page() {
       <section className={styles.opening}>
         <h2 className={styles.heading}>Opening hours</h2>
         <h3>Museum Opening hours</h3>
-        <p>Wednesday – Sunday 10.00 – 16.00</p>
+        <p>Friday – Sunday 10.00 – 18.00</p>
         <h3 style={{ marginTop: 20 }}>Restaurant Opening hours</h3>
-        <p>Wednesday – Saturday 12.00 – 20.00</p>
-        <p>Sunday – 12.00 – 18.00</p>
+        <p>The temporary closure is due to technical reasons</p>
         <p>
-          Please call to make a reservation:{" "}
+          Please call for more information:{" "}
           <a href="tel:+37122007332">+371 22007332</a>
         </p>
       </section>

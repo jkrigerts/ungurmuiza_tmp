@@ -7,18 +7,18 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div>
         <h3>Darba laiks</h3>
-        <p>Pirmdienās, otrdienās - SLĒGTS</p>
         <p
           style={{
             fontWeight: 700,
-            paddingTop: 14,
+            paddingTop: 0,
             paddingBottom: 7,
             color: "var(--black)",
           }}
         >
-          Muzeja darba laiks:
+          Muzeja darba laiks
         </p>
-        <p>T. - Sv. 10.00 – 16.00</p>
+        <p>P. - C. SLĒGTS</p>
+        <p>Pk. - Sv. 10.00 - 18.00</p>
         <p
           style={{
             fontWeight: 700,
@@ -29,8 +29,7 @@ export default function Footer() {
         >
           Restorāna darba laiks
         </p>
-        <p>T. - S. 12.00 – 20.00</p>
-        <p>Sv. 12.00 – 18.00</p>
+        <p>Tehnisku iemeslu dēļ īslaicīgi slēgts</p>
         <p style={{ paddingTop: 14 }}>
           Ja vēlaties mūs apciemot citā laikā, lūdzu, iepriekš zvanīt un jautāt
           par iespējām
