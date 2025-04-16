@@ -63,7 +63,7 @@ export function NavLinks() {
                 Par mums
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 className={`link ${pathname === "/cenas" ? styles.active : ""}`}
                 href="/cenas"
@@ -71,7 +71,7 @@ export function NavLinks() {
               >
                 Cenas
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 className={`link ${

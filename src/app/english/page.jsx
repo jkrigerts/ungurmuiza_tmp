@@ -175,13 +175,13 @@ export default function page() {
           <a href="tel:+37122007332">+371 22007332</a>
         </p>
       </section>
-      <section className={styles.info}>
+      {/* <section className={styles.info}>
         <h2 className={styles.heading}>Price List</h2>
         <iframe src="/Price-list_2025.pdf"></iframe>
         <div className={styles.wrapper}>
           <Button href="/Price-list_2025.pdf">Price list</Button>
         </div>
-      </section>
+      </section> */}
       <section className={styles.info}>
         <h2 className={styles.heading}>Menu</h2>
         <iframe src="/Menu-fall_2024.pdf"></iframe>

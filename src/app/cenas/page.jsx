@@ -22,7 +22,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <section className={styles.prices}>
+      {/* <section className={styles.prices}>
         <PageHeading>Cenas</PageHeading>
         <iframe src="/Cenas_2025.pdf"></iframe>
         <div className={styles.priceBtnWrapper}>
@@ -30,7 +30,7 @@ export default function page() {
             Cenrādis Ungurmuižas pakalpojumiem 2025
           </Button>
         </div>
-      </section>
+      </section> */}
       <Offers />
     </>
   );
